@@ -1,3 +1,7 @@
+## Minishell - 42 School Project
+
+Minishell is a complete Bash-like shell implementation in C, featuring a custom readline, lexer, parser, variable expansion, pipes, redirections, and built-in commands. It matches Bash 4.1 behavior exactly.
+
 ```
 .
 ├── .vscode/                # VSCode settings and launch configurations
@@ -5,7 +9,6 @@
 ├── .gitkeep                # Keeps empty directories in Git
 ├── Makefile                # Compilation rules: all/clean/fclean/re
 ├── libft/                  # Libft library dependency
-├── lines/                  # Line reading utilities
 ├── silent_valgrind_readline # Valgrind-compatible readline
 ├── valgrind.sh             # Valgrind testing script
 ├── includes/               # Main header: structs, prototypes, macros
@@ -22,10 +25,6 @@
     ├── token/              # Token creation, validation
     └── utils/              # Quote removal, path joining, etc
 ```
-
-## Minishell - 42 School Project
-
-Minishell is a complete Bash-like shell implementation in C, featuring a custom readline, lexer, parser, variable expansion, pipes, redirections, and built-in commands. It matches Bash 4.1 behavior exactly.
 
 ## Features
 
